@@ -1161,6 +1161,52 @@ footer .footer_section2 {
     height: 170px;
   }
 
+  .sectionBefore3 {
+    flex-direction: column;
+    padding: 50px 40px;
+  }
+
+  .sectionBefore3 div {
+    width: 100%;
+  }
+
+  .sectionBefore3 h1 {
+    font-size: 30px;
+  }
+
+  .sectionBefore3 p {
+    text-align: justify;
+    font-size: 18px;
+  }
+
+  .sectionBefore3 img {
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+  }
+
+  .sectionBefore3v2 {
+    flex-direction: column;
+    padding: 50px 40px 100px 40px;
+  }
+
+  .sectionBefore3v2 div {
+    width: 100%;
+  }
+
+  .sectionBefore3v2 h1 {
+    font-size: 30px;
+  }
+
+  .sectionBefore3v2 p {
+    text-align: justify;
+    font-size: 18px;
+  }
+
+  .sectionBefore3v2 img {
+    width: 100%;
+  }
+
   .section4 {
     height: 100%;
   }
