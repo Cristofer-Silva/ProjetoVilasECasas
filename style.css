@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap");
 
 :root {
-  --cor-primaria: #494949;
-  --cor-secundaria: #ed1b24;
+  --cor-primaria: #453331;
+  --cor-secundaria: #F26301;
   --cor-terciaria: #ffffff;
   --cor-quarternaria: #000000;
 }
@@ -62,7 +62,7 @@ header .second_section nav {
 }
 
 header .second_section img {
-  width: 300px;
+  width: 220px;
   object-fit: cover;
 }
 
@@ -110,10 +110,10 @@ header .second_section ul li a:hover {
       rgba(18, 18, 18, 0.7),
       rgba(18, 18, 18, 0.7)
     ),
-    url(/assets/webp/imagem_hero_van.webp);
+    url(/assets/VilasECasasHero.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -164,7 +164,7 @@ header .second_section ul li a:hover {
 }
 
 .section1 button:hover {
-  background-color: #951219;
+  background-color: #632700;
   transform: scale(1.05);
   transition: 0.3s;
   cursor: pointer;
@@ -233,6 +233,59 @@ header .second_section ul li a:hover {
 .section2_box2 {
   background-color: var(--cor-secundaria);
   color: var(--cor-terciaria);
+}
+
+.sectionBefore3 {
+  display: flex;
+  gap: 60px;
+  padding: 60px 10%;
+}
+
+.sectionBefore3 div {
+  width: 50%;
+  margin: auto;
+}
+
+.sectionBefore3 img {
+  max-width: 50%;
+  width: 400px;
+}
+
+.sectionBefore3 h1 {
+  font-size: 38px;
+}
+
+.sectionBefore3 p {
+  text-align: justify;
+  margin-top: 15px;
+  font-size: 19px;
+}
+
+.sectionBefore3v2 {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 60px;
+  padding: 60px 10%;
+}
+
+.sectionBefore3v2 div {
+  width: 50%;
+  margin: auto;
+}
+
+.sectionBefore3v2 img {
+  width: 50%;
+  width: 400px;
+}
+
+.sectionBefore3v2 h1 {
+  font-size: 38px;
+}
+
+.sectionBefore3v2 p {
+  text-align: justify;
+  margin-top: 15px;
+  font-size: 19px;
 }
 
 .section3 {
@@ -431,7 +484,7 @@ header .second_section ul li a:hover {
 }
 
 .section5 div button:hover {
-  background-color: #951219;
+  background-color: #632700;
   transform: scale(1.05);
   transition: 0.3s;
   cursor: pointer;
@@ -716,7 +769,7 @@ textarea {
 }
 
 .inputBox button[type="button"]:hover {
-  background-color: #951219;
+  background-color: #632700;
   transition: 0.2s;
 }
 
@@ -987,9 +1040,6 @@ footer .footer_section2 {
     font-size: 2em;
   }
 
-  header .second_section img {
-  }
-
   header .second_section ul li a {
     font-size: 1.3em;
     color: var(--cor-quarternaria);
@@ -1055,7 +1105,7 @@ footer .footer_section2 {
   }
 
   .section1 button:hover {
-    background-color: #951219;
+    background-color: #632700;
     transform: none;
     transition: 0.2s;
     cursor: none;
@@ -1176,7 +1226,7 @@ footer .footer_section2 {
   }
 
   .section5 div button:hover {
-    background-color: #951219;
+    background-color: #632700;
     transform: none;
     transition: 0.2s;
     cursor: none;
